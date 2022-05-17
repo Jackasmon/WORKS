@@ -1,0 +1,4 @@
+- 👋 Hi, I’m @Jackasmon
+- 👀 I’m interested in web-developing
+- 🌱 I’m currently learning HTML/CSS
+- 📫 You can reach me jackasmon@gmail.com or telegram https://t.me/jackasmon
