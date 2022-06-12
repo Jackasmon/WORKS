@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Online Shop!</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&display=swap"
@@ -18,7 +19,7 @@
         <nav class="header__nav">
             <div class="container">
                 <div class="header__nav-logo-search">
-                    <div class="logo"><a href="/"><img src="icons/logo.svg" alt="Logo"></a></div>
+                    <div class="logo"><a href="index.html"><img src="icons/logo.svg" alt="Logo"></a></div>
                     <form action="#">
                         <input type="text" class="header__nav-search-bar" id="search-btn">
                         <label for="search-btn" class="search-lable header__nav-actions-icons"><img
@@ -33,12 +34,12 @@
                                 <div class="aside-cross" tabindex="1"><img src="icons/close.svg" alt="cross"></div>
                                 <div class="menu-title">MENU</div>
                                 <ul class="menu-list">
-                                    <li class="menu-span"><a href=""> MAN</a></li>
-                                    <li><a href="">Accessories</a></li>
+                                    <li class="menu-span"><a href="catalog.html"> MAN</a></li>
+                                    <li><a href="catalog.html">Accessories</a></li>
                                     <li><a href="">Bags</a></li>
                                     <li><a href="">Denim</a></li>
                                     <li><a href="">T-Shirts</a></li>
-                                    <li class="menu-span"><a href=""> WOMAN</a></li>
+                                    <li class=" menu-span"><a href="product.html"> WOMAN</a></li>
                                     <li><a href="">Accessories</a></li>
                                     <li><a href="">Jackets & Coats</a></li>
                                     <li><a href="">Polos</a></li>
@@ -55,10 +56,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="header__nav-actions-icons"><a href="#"><img src="icons/login.svg" alt="login"></a>
+                    <div class="header__nav-actions-icons"><a href="login.html"><img src="icons/login.svg"
+                                alt="login"></a>
                     </div>
-                    <div class="header__nav-actions-icons cart" id="cart_cart"><a href="#"><img src="icons/cart.svg"
-                                alt="cart"></a>
+                    <div class="header__nav-actions-icons cart" id="cart_cart"><a href="cart.html"><img
+                                src="icons/cart.svg" alt="cart"></a>
                     </div>
                 </div>
             </div>
@@ -67,9 +69,9 @@
             <div class="container">
                 <div class="header__content-text">
                     <div>
-                        <span class='bold_text'>
-                            the brand <br>
-                        </span>
+                        <h2 class='bold_text'>
+                            the brand
+                        </h2>
                         of luxerious <span class="purple_text">fashion</span>
                     </div>
                 </div>
@@ -221,7 +223,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="featured-items__btn featured-items__btn_text">
+                <a href="catalog.html"" class=" featured-items__btn featured-items__btn_text">
                     Browse All Product
                 </a>
             </div>
@@ -266,7 +268,7 @@
                 <div class="subscribe__form-text">FOR OUR NEWLETTER AND PROMOTION</div>
                 <form>
                     <div class="subscribe_lable">
-                        <input type="email" placeholder="Enter Your Email">
+                        <input type="email" placeholder="Enter Your Email" required>
                         <input type="submit" id="subscribe">
                         <label for="subscribe" id="btn" class="label-for-subscribe">Subscribe
                         </label>

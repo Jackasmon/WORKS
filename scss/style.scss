@@ -1,0 +1,13 @@
+*,
+*::before,
+*::after {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import "general";
+@import "cart";
+@import "catalog";
+@import "login";
+@import "product";
+@import "media";

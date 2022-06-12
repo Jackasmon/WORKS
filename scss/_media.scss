@@ -1,0 +1,608 @@
+/*------ MEDIA QUERIES -------*/
+/*------ min - WIDTH -----*/
+@media (min-width: 2200px) {
+    .header__content {
+        background-position-x: 250px;
+    }
+}
+
+@media (min-width: 2400px) {
+    .header__content {
+        background-position-x: 550px;
+    }
+}
+
+/*------ max - WIDTH -----*/
+@media (max-width: 1440px) {
+    .header__content {
+        background-position-x: -50px;
+    }
+}
+
+@media (max-width: 1241px) {
+    .aside-display-none {
+        left: -50px;
+    }
+}
+
+@media (max-width: 1169px) {
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids,
+    .things__accesories {
+        flex: 1 1 300px;
+    }
+
+    .card_box:last-child {
+        display: none;
+    }
+
+    .swiper-descr {
+        position: static;
+        top: 0;
+    }
+
+}
+
+@media (max-width: 1025px) {
+    .header__content {
+        background-position-x: -150px;
+    }
+
+    .main-cart {
+        flex-direction: column;
+    }
+
+    .cart-inputs {
+        padding-top: 64px;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .cart__input {
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media (max-width: 990px) {
+
+    .header__content {
+        background-size: 70%;
+        min-height: 600px;
+    }
+
+
+    .header__content-text {
+        margin-left: 400px;
+        margin-bottom: auto;
+    }
+
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids,
+    .things__accesories {
+        flex: 1 1 250px;
+        height: 167px;
+    }
+
+    .registration.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .registration__text {
+        max-width: 354px;
+    }
+
+    .registration__text-title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .registration__text-paragraph {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .registration__benefits li {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+}
+
+@media (max-width: 840px) {
+    .header__content-text::before {
+        height: 92px;
+    }
+
+    .header__nav {
+        padding: 0 15px 0 15px;
+    }
+
+    .header__content {
+        min-height: 368px;
+        background-size: 50%;
+        background-position-x: 0;
+
+    }
+
+    .header__content-text {
+        font-size: 24px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    .header__content-text .bold_text {
+        font-size: 44px;
+        line-height: 53px;
+    }
+
+    .things.container {
+        padding-top: 20px;
+        padding-bottom: 65px;
+    }
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids,
+    .things__accesories {
+        flex: 1 1 233px;
+
+    }
+
+    .things__accesories {
+        height: 116px;
+    }
+
+    .things__for-women,
+    .things__for-man {
+        margin-right: 18px;
+    }
+
+    .things__accesories {
+        margin-top: 18px;
+    }
+
+    .benefits {
+        padding: 48px 0 64px 0;
+    }
+
+    .benefits .container {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .benefits__of-shop:not(:last-child) {
+        margin-bottom: 48px;
+    }
+
+    .subscribe {
+        padding: 64px 0 140px 0;
+
+    }
+
+    .subscribe .container {
+        flex-direction: column;
+
+    }
+
+    .subscribe__user-pic-descr {
+        margin-bottom: 48px;
+    }
+
+    .subscribe__form-text {
+        margin-bottom: 27px;
+    }
+
+
+
+}
+
+@media (max-width:780px) {
+    .card_box {
+        margin: 15px 8px 15px 8px;
+    }
+
+    .catalog-head {
+        justify-content: space-between;
+    }
+
+    .catalog-head__filter {
+        flex-basis: auto;
+    }
+
+    .subscribe {
+        background-position: left 0;
+    }
+
+    .featured-items__cards {
+        padding: 35px 0 0 0;
+    }
+
+    .swiper-descr~.catalog.container {
+        padding: 0 0 82px 0;
+    }
+
+    .main-cart {
+        padding: 59px 0 128px 0;
+    }
+
+    .total-price {
+        height: 214px;
+    }
+
+    .cart-inputs {
+        flex-wrap: wrap;
+        align-items: center;
+    }
+}
+
+@media (max-width:764px) {
+    .header__content {
+        background-image: none;
+    }
+
+    .header__content-text {
+        margin: 0 auto;
+    }
+
+    .things.container {
+        padding-top: 64px;
+    }
+
+    .things__for-people {
+        flex-direction: column;
+        max-width: 343px;
+        margin: 0 auto;
+    }
+
+    .things__for-women,
+    .things__for-man,
+    .things__accesories,
+    .things__for-kids {
+        margin-right: 0;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .things__accesories {
+        max-height: 111px;
+    }
+
+    .footer {
+        padding: 40px 0 10px 0;
+    }
+
+    .footer .container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .footer__social {
+        margin-bottom: 40px;
+    }
+
+    .registration.container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .registration__forms {
+        margin-bottom: 40px;
+    }
+
+    .header-catalog__content.reg {
+        padding-top: 60px;
+    }
+
+}
+
+@media (max-width:751px) {
+    .card_box:last-child {
+        display: block;
+    }
+
+    .swiper-descr__line {
+        max-width: 175px;
+    }
+
+    .swiper .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .swiper__content img {
+        max-width: 450px;
+    }
+
+    .cart-inputs {
+        justify-content: center;
+    }
+
+    .cart__input {
+        margin-bottom: 48px;
+    }
+
+}
+
+@media (max-width:545px) {
+    .header__nav-search-bar {
+        left: 51px;
+        top: 84px;
+    }
+
+    .header-catalog__content {
+        padding: 24px 0 46px 0;
+    }
+
+
+    .header-catalog__content .purple_text {
+        margin-bottom: 32px;
+    }
+
+    .header-catalog__content .container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bread-crumbs {
+        justify-content: center;
+    }
+
+    .catalog.container {
+        padding: 24px 0 64px 0;
+    }
+
+    .catalog-head__filter span {
+        display: none;
+    }
+
+    .catalog-head__filter svg {
+        width: 37px;
+        height: 25px;
+    }
+
+    .filter_icon h2 {
+        display: none;
+    }
+
+    .catalog-head__atributes {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .swiper .container {
+        min-height: 624px
+    }
+
+    .swiper__content img {
+        max-width: 350px;
+    }
+
+    .choose-category {
+        font-weight: 400;
+        font-size: 10px;
+        line-height: 12px;
+    }
+
+    .product.catalog-cards.featured-items__cards {
+        padding-top: 0;
+    }
+
+    .main-cart.container {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+
+    .cart-card {
+        height: 188px;
+    }
+
+    .cart-card__title {
+        font-size: 16px;
+        line-height: 19px;
+    }
+
+    .cart-card__p {
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .cart-card__p input {
+        outline: none;
+        font-size: 10px;
+        line-height: 12px;
+        width: 24px;
+        height: 15px;
+    }
+
+    .content-img {
+        width: 160px;
+        height: 188px;
+    }
+
+    .cart-card__title {
+        margin-bottom: 26px;
+    }
+
+    .cart-card__descr {
+        padding: 10px 0 37px 17px;
+    }
+
+    .cart-card__close_div {
+        padding: 15px 10px 0 0;
+    }
+
+    .cart-btn {
+        width: 175px;
+        height: 33px;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .cart-card:first-child {
+        margin-bottom: 32px;
+    }
+}
+
+@media (max-width:391px) {
+
+    .header__content {
+        min-height: 363px;
+    }
+
+    .header__content-text {
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .header__content-text .bold_text {
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .header__content-text::before {
+        height: auto;
+    }
+
+    .catalog-head__filter-hidden {
+        width: 300px;
+    }
+
+    .things.container {
+        padding-bottom: 30px;
+    }
+
+    .header__nav-actions-icons:not(:first-child) {
+        display: none;
+    }
+
+    .search-lable.header__nav-actions-icons {
+        display: block;
+    }
+
+    .things__for-women,
+    .things__for-man,
+    .things__for-kids {
+        min-height: 248px;
+    }
+
+    .subscribe_lable input[type=email] {
+        width: 200px;
+    }
+
+    #btn {
+        width: 80px;
+    }
+
+    .subscribe__form-text {
+        text-align: center;
+    }
+
+    .aside-display-none {
+        left: -140px;
+    }
+
+    .aside-menu {
+        min-height: 600px;
+    }
+
+    .cards_img,
+    .card_box {
+        width: 358px;
+    }
+
+    .swiper__content img {
+        width: 450px;
+        height: 454px;
+    }
+
+    .cart-btn {
+        width: 150px;
+    }
+
+    .total-price {
+        padding: 20px 16px 20px 21px;
+    }
+
+    .cart-card {
+        align-self: center;
+    }
+
+    .subscribe {
+        padding: 64px 0 109px 0;
+    }
+}
+
+@media (max-width: 381px) {
+    .swiper__content img {
+        max-width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width:374px) {
+
+    .cards_img,
+    .card_box {
+        width: 200px;
+    }
+
+    .card_hover {
+        top: 100px;
+        left: 30px;
+    }
+
+    .catalog-head__filter-hidden {
+        width: 200px;
+    }
+
+    .content-img {
+        width: 129px;
+        height: 150px;
+    }
+
+    .cart-card {
+        height: 150px;
+        width: 300px;
+    }
+
+    .cart__input input {
+        width: 300px;
+    }
+
+    .first_form input[type=text],
+    .second_form input[type=password],
+    .second_form input[type=email] {
+        height: 40px;
+        width: 250px;
+    }
+
+}
+
+@media (max-width:291px) {
+    .header__content-text {
+        font-size: 15px;
+    }
+
+    .header__content-text .bold_text {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .swiper__content img {
+        max-width: 200px;
+    }
+
+}

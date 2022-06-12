@@ -1,0 +1,227 @@
+.main-cart {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 96px 0 128px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-cart.container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.cards-and-btn {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-card {
+    max-width: 652px;
+    height: 306px;
+    display: flex;
+    justify-content: space-between;
+    max-height: 306px;
+    box-shadow: 17px 19px 24px rgba(0, 0, 0, 0.1);
+}
+
+.cart-card:first-child {
+    margin-bottom: 40px;
+}
+
+.cart-card:nth-child(2) {
+    margin-bottom: 72px;
+}
+
+.cart-card__descr {
+    flex-basis: 240px;
+    padding: 22px 0 62px 31px;
+}
+
+.cart-card__title {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #222222;
+    margin-bottom: 42px;
+}
+
+.cart-card__p {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 26px;
+    color: #575757;
+}
+
+.cart-card__p input {
+    width: 44px;
+    height: 25px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #656565;
+    border: 1px solid #EAEAEA;
+}
+
+.cart-card__close_div {
+    padding: 28px 22px 0 0;
+}
+
+.cart-card__close {
+    display: block;
+    height: 20px;
+}
+
+.cart-card__close svg {
+    cursor: pointer;
+}
+
+.cart-btn-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.cart-btn {
+    cursor: pointer;
+    display: flex;
+    width: 235px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 300;
+    font-size: 14px;
+    color: #000000;
+    background-color: transparent;
+    border: 1px solid #A4A4A4;
+}
+
+.cart-btn:hover {
+    background-color: #bdb8b8;
+}
+
+.cart-btn:active {
+    background-color: #827f7f;
+}
+
+.cart-inputs {
+    display: flex;
+    flex-direction: column;
+    align-self: baseline;
+}
+
+.cart__input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    max-width: 360px;
+    margin-bottom: 57px;
+}
+
+.cart__input-title {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-bottom: 20px;
+}
+
+.cart__input input {
+    width: 360px;
+    height: 45px;
+    margin-bottom: 20px;
+    border: 1px solid #A4A4A4;
+    padding-left: 18px;
+}
+
+
+input[class=color-placeholder]::-moz-placeholder {
+    color: #B1B1B1;
+}
+
+input[class=color-placeholder]::-webkit-input-placeholder {
+    color: #B1B1B1;
+}
+
+.cart__input button {
+    background-color: transparent;
+    border: 1px solid #A4A4A4;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 101px;
+    height: 35px;
+}
+
+.total-price {
+    min-height: 214px;
+    display: flex;
+    flex-direction: column;
+    background: #F5F3F3;
+    padding: 39px 34px 42px 44px;
+    align-self: center;
+}
+
+.total-price__sub-total {
+    text-align: right;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #4A4A4A;
+    margin-bottom: 12px;
+}
+
+.total-price__sub-total span {
+    margin-left: 20px;
+}
+
+.total-price__grand-total {
+    text-align: right;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-bottom: 21px;
+}
+
+.total-price__grand-total span {
+    margin-left: 20px;
+}
+
+.total-price__line {
+    margin-bottom: 17px;
+    background: #E2E2E2;
+    width: 275px;
+    border-bottom: none;
+    align-self: center;
+}
+
+.total-price__btn {
+    cursor: pointer;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 273px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    background: #F16D7F;
+    border: none;
+}
+
+.total-price__btn:hover {
+    background: #ef596d;
+}
+
+.total-price__btn:active {
+    background: #eb3a52;
+}
